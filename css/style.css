@@ -190,7 +190,7 @@ body {
 }
 
 .about .row .about-img {
-  flex: 1 1 45rem;
+  flex: 2 2 35rem;
 }
 
 .about .row .about-img img {
@@ -204,6 +204,7 @@ body {
 
 .about .row .content h3 {
   font-size: 1.8rem;
+  font-style: italic;
   margin-bottom: 1rem;
 }
 
@@ -212,7 +213,10 @@ body {
   font-size: 1.2rem;
   font-weight: 100;
   line-height: 1.6;
+  text-align: justify;
 }
+
+
 
 /* Menu Section */
 .menu h2,
@@ -340,6 +344,9 @@ body {
 }
 
 /* Info */
+.info h2 p{
+  text-align: left;
+}
 
 .info .info-icons {
   display: flex;
