@@ -229,7 +229,7 @@ body {
 .contact p,
 .info p {
   text-align: center;
-  max-width: 30rem;
+  max-width: 40rem;
   margin: auto;
   font-weight: 300;
   line-height: 1.6;
@@ -248,8 +248,8 @@ body {
 }
 
 .menu .row .menu-card img {
-  border-radius: 50%;
-  width: 80%;
+  border-radius: 20%;
+  width: 40%;
 }
 
 .menu .row .menu-card .cta{
@@ -270,7 +270,7 @@ body {
 /* Products Section */
 .products .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
   margin-top: 4rem;
 }
@@ -395,6 +395,7 @@ footer .links {
 footer .links a {
   color: #fff;
   padding: 0.7rem 1rem;
+  font-size: 1.3rem;
 }
 
 footer .credit {
