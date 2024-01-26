@@ -162,6 +162,7 @@ body {
 .menu,
 .products,
 .contact, 
+.kons,
 .info{
   padding: 8rem 7% 1.4rem;
 }
@@ -170,6 +171,7 @@ body {
 .menu h2,
 .products h2,
 .contact h2,
+.kons h2,
 .info h2{
   text-align: center;
   font-size: 2.6rem;
@@ -180,6 +182,7 @@ body {
 .menu h2 span,
 .products h2 span,
 .contact h2 span,
+.kons h2 span,
 .info h2 span {
   color: var(--primary);
 }
@@ -221,12 +224,14 @@ body {
 .menu h2,
 .products h2,
 .contact h2,
+.kons h2,
 .info h2 {
   margin-bottom: 0.5rem;
 }
 .menu p,
 .products p,
 .contact p,
+.kons p,
 .info p {
   text-align: center;
   max-width: 50rem;
@@ -340,6 +345,52 @@ body {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
+}
+
+/* kons */
+
+.kons h2 p{
+  text-align: left;
+}
+
+.kons .kons-icon {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.kons .kons-icon1 {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.kons .kons-icon a {
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  margin: 0.3rem;
+  border: 1px solid #666;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.kons .kons-icon1 a {
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  margin: 0.3rem;
+  border: 1px solid #666;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 /* Info */
