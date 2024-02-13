@@ -129,10 +129,8 @@
             </div>
             <div class="product-card">
               <div class="product-image">
-                <img class="mySlides" src="img/product/df.jpg" alt="Image 1" style="width:100%"/>
-                <img class="mySlides" src="img/product/tyg.png" alt="Image 2" style="width: 100%"/>
-                <img class="mySlides" src="img/product/welcome.png" alt="Image 3" style="width: 100%"/>      
-            </div>
+                <img class="mySlides" src="img/product/df.jpg" alt="Image 1"/>   
+            </div>           
               <div class="product-content">
                 <h3>Live Kegiatan Gereja</h3>
                 <p>Live doa fajar dan ibadah gereja</p>
@@ -211,26 +209,6 @@
     <!-- Feather Icons -->
   <script>
     feather.replace()
-  </script>
-
-<!-- slideshow -->
-  <script>
-      var myIndex = 0;
-      carousel();
-
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {
-          myIndex = 1;
-        }
-        x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 4000); // Change image every 4 seconds
-      }
   </script>
 
   <!-- My Javascript -->

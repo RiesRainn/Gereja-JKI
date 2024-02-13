@@ -22,3 +22,25 @@ window.onclick = (e) => {
   }
 };
 
+// fungsi slide manual
+window.onload = function(){
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  showSlides(1);
+}
+
+function showSlides(n){
+  var i;
+  var slides = document.getElementsByClassName("mySildes");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[n-1].style.display = "block";
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
